@@ -13,6 +13,7 @@
 		AEFBBA222AADCD4A0012AB9A /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBBA212AADCD4A0012AB9A /* Framework.swift */; };
 		AEFBBA242AADCF030012AB9A /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBBA232AADCF030012AB9A /* FrameworkGridView.swift */; };
 		AEFBBA262AADCF3B0012AB9A /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBBA252AADCF3B0012AB9A /* FrameworkTitleView.swift */; };
+		AEFBBA282AADDB6A0012AB9A /* FrameworkDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBBA272AADDB6A0012AB9A /* FrameworkDetailedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		AEFBBA212AADCD4A0012AB9A /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		AEFBBA232AADCF030012AB9A /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		AEFBBA252AADCF3B0012AB9A /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
+		AEFBBA272AADDB6A0012AB9A /* FrameworkDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				AEFBBA132AADCCFB0012AB9A /* AppleFrameworksAppApp.swift */,
 				AEFBBA232AADCF030012AB9A /* FrameworkGridView.swift */,
+				AEFBBA272AADDB6A0012AB9A /* FrameworkDetailedView.swift */,
 				AEFBBA252AADCF3B0012AB9A /* FrameworkTitleView.swift */,
 				AEFBBA212AADCD4A0012AB9A /* Framework.swift */,
 				AEFBBA172AADCCFD0012AB9A /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				AEFBBA242AADCF030012AB9A /* FrameworkGridView.swift in Sources */,
 				AEFBBA222AADCD4A0012AB9A /* Framework.swift in Sources */,
+				AEFBBA282AADDB6A0012AB9A /* FrameworkDetailedView.swift in Sources */,
 				AEFBBA142AADCCFB0012AB9A /* AppleFrameworksAppApp.swift in Sources */,
 				AEFBBA262AADCF3B0012AB9A /* FrameworkTitleView.swift in Sources */,
 			);

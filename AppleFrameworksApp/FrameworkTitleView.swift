@@ -8,25 +8,25 @@
 import SwiftUI
 
 struct FrameworkTitleView: View {
-    var imageUrl: String
-    var frameworkName: String
+    let framework: Framework
      
     var body: some View {
         VStack {
-            Image(imageUrl)
+            Image(framework.imageName)
                 .renderingMode(.original)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 90, height: 90)
-            Text(frameworkName)
+            Text(framework.name)
                 .font(.title)
                 .fontWeight(.semibold)
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
         }
+        .padding()
     }
 }
 
 #Preview {
-    FrameworkTitleView(imageUrl: "arkit", frameworkName: "ARKit")
+    FrameworkTitleView(framework: MockData.frameworks.shuffled()[0])
 }

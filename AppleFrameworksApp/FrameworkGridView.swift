@@ -15,13 +15,15 @@ struct FrameworkGridView: View {
     ]
 
     var body: some View {
-        LazyVGrid(columns: columns) {
-            FrameworkTitleView(imageUrl: "arkit", frameworkName: "ARKit")
-            FrameworkTitleView(imageUrl: "arkit", frameworkName: "ARKit")
-            FrameworkTitleView(imageUrl: "arkit", frameworkName: "ARKit")
-            FrameworkTitleView(imageUrl: "arkit", frameworkName: "ARKit")
-            FrameworkTitleView(imageUrl: "arkit", frameworkName: "ARKit")
-            FrameworkTitleView(imageUrl: "arkit", frameworkName: "ARKit")
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: columns) {
+                    ForEach(MockData.frameworks) { framework in
+                        FrameworkTitleView(framework: framework)
+                    }
+                }
+            }
+            .navigationTitle("Apple Frameworks")
         }
     }
 }
