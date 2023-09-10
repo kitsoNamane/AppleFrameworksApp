@@ -11,17 +11,18 @@ struct FrameworkDetailedView: View {
     var framework: Framework
     var body: some View {
         VStack(spacing: 20) {
+            Spacer()
             FrameworkTitleView(framework: framework)
             Text(framework.description)
-                .font(.title3)
-            Button("Learn More") {
+                .font(.body)
+                .padding()
+            Spacer()
+            Button{
+            
+            } label: {
+                AFButton(title: "Learn More")
             }
-                .frame(width: 280, height: 50)
-                .background(.red)
-                .cornerRadius(10)
-                .foregroundColor(.white)
         }
-        .padding()
     }
 }
 
