@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FrameworkView: View {
+struct FrameworkTitleView: View {
     var imageUrl: String
     var frameworkName: String
      
@@ -17,15 +17,16 @@ struct FrameworkView: View {
                 .renderingMode(.original)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
+                .frame(width: 90, height: 90)
             Text(frameworkName)
-            .font(.system(size: 36, weight: .medium, design: .default))
-            .foregroundStyle(.white)
+                .font(.title)
+                .fontWeight(.semibold)
+                .scaledToFit()
+                .minimumScaleFactor(0.6)
         }
-        .frame(width: 180, height: 180)
-        .background(.teal)
     }
 }
 
 #Preview {
-    FrameworkView(imageUrl: "arkit", frameworkName: "ARKit")
+    FrameworkTitleView(imageUrl: "arkit", frameworkName: "ARKit")
 }
