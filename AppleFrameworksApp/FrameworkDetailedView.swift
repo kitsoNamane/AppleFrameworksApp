@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct FrameworkDetailedView: View {
+    @Binding var isShowingDetailedView: Bool
+    
     var framework: Framework
+    
     var body: some View {
         VStack(spacing: 20) {
             HStack {
                 Spacer()
+                
                 Button {
+                    isShowingDetailedView = false
                 } label: {
                     Image(systemName: "xmark")
                         .foregroundColor(Color(.label))
@@ -22,12 +27,17 @@ struct FrameworkDetailedView: View {
                 }
             }
             .padding()
+            
             Spacer()
+            
             FrameworkTitleView(framework: framework)
+            
             Text(framework.description)
                 .font(.body)
                 .padding()
+                
             Spacer()
+            
             Button{
             
             } label: {
@@ -38,5 +48,5 @@ struct FrameworkDetailedView: View {
 }
 
 #Preview {
-    FrameworkDetailedView(framework: MockData.frameworks.shuffled()[0])
+    FrameworkDetailedView(isShowingDetailedView: .constant(false), framework: MockData.frameworks.shuffled()[0])
 }

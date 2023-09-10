@@ -15,6 +15,7 @@
 		AEFBBA262AADCF3B0012AB9A /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBBA252AADCF3B0012AB9A /* FrameworkTitleView.swift */; };
 		AEFBBA282AADDB6A0012AB9A /* FrameworkDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBBA272AADDB6A0012AB9A /* FrameworkDetailedView.swift */; };
 		AEFBBA2A2AADE05B0012AB9A /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBBA292AADE05B0012AB9A /* AFButton.swift */; };
+		AEFBBA2C2AAE17390012AB9A /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBBA2B2AAE17390012AB9A /* FrameworkGridViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		AEFBBA252AADCF3B0012AB9A /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
 		AEFBBA272AADDB6A0012AB9A /* FrameworkDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailedView.swift; sourceTree = "<group>"; };
 		AEFBBA292AADE05B0012AB9A /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		AEFBBA2B2AAE17390012AB9A /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				AEFBBA132AADCCFB0012AB9A /* AppleFrameworksAppApp.swift */,
 				AEFBBA232AADCF030012AB9A /* FrameworkGridView.swift */,
 				AEFBBA272AADDB6A0012AB9A /* FrameworkDetailedView.swift */,
+				AEFBBA2B2AAE17390012AB9A /* FrameworkGridViewModel.swift */,
 				AEFBBA292AADE05B0012AB9A /* AFButton.swift */,
 				AEFBBA252AADCF3B0012AB9A /* FrameworkTitleView.swift */,
 				AEFBBA212AADCD4A0012AB9A /* Framework.swift */,
@@ -154,6 +157,7 @@
 				AEFBBA282AADDB6A0012AB9A /* FrameworkDetailedView.swift in Sources */,
 				AEFBBA142AADCCFB0012AB9A /* AppleFrameworksAppApp.swift in Sources */,
 				AEFBBA2A2AADE05B0012AB9A /* AFButton.swift in Sources */,
+				AEFBBA2C2AAE17390012AB9A /* FrameworkGridViewModel.swift in Sources */,
 				AEFBBA262AADCF3B0012AB9A /* FrameworkTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
