@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE8BE5292AAF6E1900CC93B2 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BE5282AAF6E1900CC93B2 /* SafariView.swift */; };
+		AE8BE52B2AAF726300CC93B2 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8BE52A2AAF726300CC93B2 /* XDismissButton.swift */; };
 		AEFBBA142AADCCFB0012AB9A /* AppleFrameworksAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFBBA132AADCCFB0012AB9A /* AppleFrameworksAppApp.swift */; };
 		AEFBBA182AADCCFD0012AB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFBBA172AADCCFD0012AB9A /* Assets.xcassets */; };
 		AEFBBA1B2AADCCFD0012AB9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFBBA1A2AADCCFD0012AB9A /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		AE8BE5282AAF6E1900CC93B2 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		AE8BE52A2AAF726300CC93B2 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		AEFBBA102AADCCFB0012AB9A /* AppleFrameworksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleFrameworksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFBBA132AADCCFB0012AB9A /* AppleFrameworksAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworksAppApp.swift; sourceTree = "<group>"; };
 		AEFBBA172AADCCFD0012AB9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				AEFBBA232AADCF030012AB9A /* FrameworkGridView.swift */,
 				AE8BE5282AAF6E1900CC93B2 /* SafariView.swift */,
 				AEFBBA272AADDB6A0012AB9A /* FrameworkDetailedView.swift */,
+				AE8BE52A2AAF726300CC93B2 /* XDismissButton.swift */,
 				AEFBBA2B2AAE17390012AB9A /* FrameworkGridViewModel.swift */,
 				AEFBBA292AADE05B0012AB9A /* AFButton.swift */,
 				AEFBBA252AADCF3B0012AB9A /* FrameworkTitleView.swift */,
@@ -157,6 +160,7 @@
 			files = (
 				AEFBBA242AADCF030012AB9A /* FrameworkGridView.swift in Sources */,
 				AEFBBA222AADCD4A0012AB9A /* Framework.swift in Sources */,
+				AE8BE52B2AAF726300CC93B2 /* XDismissButton.swift in Sources */,
 				AEFBBA282AADDB6A0012AB9A /* FrameworkDetailedView.swift in Sources */,
 				AEFBBA142AADCCFB0012AB9A /* AppleFrameworksAppApp.swift in Sources */,
 				AE8BE5292AAF6E1900CC93B2 /* SafariView.swift in Sources */,
