@@ -9,6 +9,7 @@ import SwiftUI
 
 struct FrameworkDetailedView: View {
     @Binding var isShowingDetailedView: Bool
+    @State private var isShowingSafariView = false
     
     var framework: Framework
     
@@ -39,11 +40,14 @@ struct FrameworkDetailedView: View {
             Spacer()
             
             Button{
-            
+                isShowingSafariView = true
             } label: {
                 AFButton(title: "Learn More")
             }
         }
+        .fullScreenCover(isPresented: $isShowingSafariView, content: {
+            SafariView(url: URL(string: framework.urlString) ?? URL(string: "www.apple.com")!)
+        })
     }
 }
 
