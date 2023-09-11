@@ -8,15 +8,12 @@
 import SwiftUI
 
 struct FrameworkDetailedView: View {
-    @Binding var isShowingDetailedView: Bool
     @State private var isShowingSafariView = false
     
     var framework: Framework
     
     var body: some View {
         VStack(spacing: 20) {
-            
-            Spacer()
             
             FrameworkTitleView(framework: framework)
             
@@ -45,5 +42,5 @@ struct FrameworkDetailedView: View {
 }
 
 #Preview {
-    FrameworkDetailedView(isShowingDetailedView: .constant(false), framework: MockData.frameworks.shuffled()[0])
+    FrameworkDetailedView(framework: MockData.frameworks.shuffled()[0])
 }
