@@ -24,7 +24,7 @@ struct FrameworkGridView: View {
             }
             .navigationTitle("Apple Frameworks")
             .navigationDestination(for: Framework.self) { framework in
-                FrameworkDetailedView(framework: framework)
+                FrameworkDetailedView(viewModel: FrameworkDetaileViewModel(framework: viewModel.selectedFramework ?? MockData.sampleFramework, isShowingDetailedView: $viewModel.isShowingDetailView))
             }
         }
     }
